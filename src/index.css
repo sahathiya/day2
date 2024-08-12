@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Step 5: Define styles for the light theme */
+.light-theme {
+  background-color: white;
+  color: black;
+  height: 100vh; /* Ensures the background color covers the full viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Step 6: Define styles for the dark theme */
+.dark-theme {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Additional styling for the button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
